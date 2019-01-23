@@ -1,0 +1,434 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{rotating}
+\usepackage[export]{adjustbox}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Lehrvortrag. Universität Potsdam.\\2019]{\LARGE Fragmentierung und Habitatverlust\\[0.1cm]
+\includegraphics[width=0.4\textwidth]{Figures/hab_loss_frag.jpg}\vspace{-0.4cm}} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author[Avit K. Bhowmik]{\vspace{-0.4cm}\textbf{Dr. Avit K. Bhowmik}} % Your name
+\institute[The Royal Swedish Academy of Sciences] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{\vspace{-0.3cm}
+\textit{avit.bhowmik@futureearth.org}% Your email address
+}
+\date[\small January 25, 2019]{January 25, 2019 \\ \raggedright
+\includegraphics[width=0.3\textwidth]{Figures/KVA_logo.png}} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Über mich}
+\begin{columns}
+\column{.6\textwidth}
+\begin{itemize}
+\item Postdoc at Future Earth, Royal Swedish Academy of Sciences
+\item Bachelor in Stadt- und Regionalplanung, Master in Geospatial Technologies, Promotion in räumlicher Ökologie
+\item Lehrerfahrung: Räumliche Ökologie und Umweltgesundheit, Geoinformatik, Geostatistik und R, Resilienz und Nachhaltigkeit
+\end{itemize}
+\hspace{0.5cm}
+\column{.4\textwidth}
+\raggedleft
+\includegraphics[width=\textwidth]{Figures/pro.png}\\
+\centering
+\tiny Lehrvortrag im ``Global Solutions Program, Google''
+\end{columns}
+\end{frame}
+
+%-----------------------------------------------
+
+\begin{frame}
+  \frametitle{Kontext des Lehrvotrages}
+\begin{itemize}
+\item Studiengang: B.Sc. Geoökologie,\\Module - Geoökologie I \& II
+\item Potenzieller Kurs: Grundlegende Konzepte in Geoökologie
+\item \alert{Potenzielle Kursinhalte}:
+\begin{itemize}
+\item Einführung: Ursachen für den Biodiversitätsverlust
+\item Konzepte: Habitat, Habitatverlust und Fragmentierung
+\item Ursachen und Auswirkungen des Habitatverlusts
+\item Maßnamen zur Erhaltung der Biodiversität: Deutschland und Europa
+\end{itemize}
+\item Inhalt der Vorlesung kann online unter dem folgenden Link abgerufen werden: \alert{https://github.com/AvitBhowmik/testUP} (siehe auch Handout)
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+  \frametitle{Erwartungen}
+\begin{itemize}
+\item \alert{Eure Erwartungen:} Umfrage vor Kursbeginn, z.B. Google Forms
+\item \alert{Meine Erwartungen:}
+\begin{itemize}
+\item Rückfragen und kritisches Denken
+\item “Problembasiertes Lernen”
+\end{itemize}
+\end{itemize}
+\raggedleft
+\includegraphics[width=0.5\textwidth]{Figures/Questions.png}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+  \frametitle{Lernziele und Wiederholungsfragen}
+\begin{itemize}
+\item Verständnis der Konzepte: Habitat, Habitatverlust und Fragmentierung
+	\begin{itemize}
+	\item Welche Rolle spielt das Habitat für Arten?
+	\item Durch welche Prozesse entsteht ein Habitatverlust oder Framgmentierung?
+	\end{itemize}
+\item Wissen über die Ursachen und Auswirkungen des Habitatverlusts
+	\begin{itemize}
+	\item Was sind die zentralen Ursachen von Habitatverlust?
+	\item Welche Auswirkungen hat der Habitatverlust auf die Biodiversität?
+	\end{itemize}
+\item Kenntnis von gesetzlichen Rahmenbedingungen und Zuständigkeiten für Habitat- und Naturschutz
+	\begin{itemize}
+	\item Welche gesetzlichen Rahmenbedingungen gibt es in Europa und Deutschland für den Naturschutz?
+	\item Wie kann unsere Gesellschaft die Naturhabitate schützen?
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Ursachen des Biodiversitätsverlusts}
+\centering
+\includegraphics[width=1.05\textwidth]{Figures/drivers.jpg}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{\LARGE\alert{Was ist ein Habitat?}}
+\onslide<2-> Das Habitat ist ein Lebensraum, den eine Auswahl von Tier- oder Pflanzenarten aus der Lebensgemeinschaft eines Biotops nutzt. Habitate bilden somit Teillebensräume in Biotopen (Campbell und Reece, 2009. Biology)\\
+\onslide<1->
+\vspace{0.3cm}
+\includegraphics[width=\textwidth]{Figures/habitat.jpg}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Was ist ein Habitat?}
+\onslide<1->
+\begin{columns}
+\column{.4\textwidth}
+\alert{Die Rolle des Habitats}\\
+\begin{itemize}
+\item Territorialität
+\item Verbreitung
+\item Migration
+\item Nahrungsaufnahme
+\item Fortpflanzung
+\end{itemize}
+\hspace{1cm}
+\column{.6\textwidth}
+\raggedleft
+\includegraphics[width=0.9\textwidth]{Figures/hab.png}\\
+\centering
+\tiny (EEA-FOEN, 2011)
+\end{columns}
+\end{frame}
+
+%-----------------------------------------------
+
+\begin{frame}
+\frametitle{\LARGE\alert{Habitatverlust}}
+Habitat wird durch den Menschen anders genutzt (Cain et al. 2011. Ecology)\\
+\begin{itemize}
+\item Fragmentierung
+\item Degradierung
+\item Zerstörung
+\end{itemize}
+\vspace{1cm}
+\centering
+\includegraphics[width=1.04\textwidth]{Figures/loss.png}\\
+\tiny (EEA-FOEN, 2011)
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Habitatverlust}
+Sojaplantage im Amazonas\\(Galaz et al. 2018. Nature Eco Evo)\\
+\vspace{0.3cm}
+\includegraphics[width=\textwidth]{Figures/hab_loss.jpg}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{\LARGE\alert{Fragmentierung}}
+Zerschneidung von ehemals zusammenhängenden Lebensräumen (Cain et al. 2011. Ecology)\\
+\vspace{0.3cm}
+%\includegraphics[width=\textwidth]{Figures/frag.png}\\
+\includegraphics[width=\textwidth]{Figures/frag_ex_1.png}
+%\centering
+%\tiny (EEA-FOEN, 2011)
+\tiny (Sinauer Associates, Inc. 2008)
+\end{frame}
+
+%------------------------------------------------
+
+%\begin{frame}
+%\frametitle{Fragmentierung}
+%Amazonasfischgräte (Nepstad et al. 2009. Science)\\
+%\vspace{0.3cm}
+%\includegraphics[width=\textwidth]{Figures/hab_frag.jpg}
+%\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{\LARGE\alert{Die Prozesse des Habitatverlusts}}
+\centering
+\includegraphics[width=0.8\textwidth]{Figures/hab_loss_frag_1.jpg}\\
+\footnotesize
+\begin{itemize}
+\item Fragmentierung und Degradierung
+\item Tipping Points / Regime Shift (Rocha et al. 2018. Science)
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+%\begin{frame}
+%\frametitle{Durch Fragmentierung}
+%\includegraphics[width=1.05\textwidth]{Figures/frag_ex_1.png}\\
+%\centering
+%\tiny (Sinauer Associates, Inc. 2008)
+%\end{frame}
+
+%------------------------------------------------
+
+%\begin{frame}
+%\frametitle{Durch Fragmentierung}
+%Landwirtschaft in Bolivien\\(Erickson, 2003. Managing Change)\\[0.5cm]
+%\includegraphics[width=1.04\textwidth]{Figures/loss_ex_1.jpg}
+%\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Tipping Points}
+\includegraphics[width=1.04\textwidth]{Figures/tipping.png}\\
+\centering
+\tiny (Carpenter, 2003. Eco Soc)
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Tipping Points}
+Zerstörung der Korallenbank (WWF, 2018)\\[0.5cm]
+\includegraphics[width=1.04\textwidth]{Figures/loss_ex_2.png}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Ursachen des Habitatverlusts}
+\begin{columns}
+\column{.5\textwidth}
+\alert{Durch den Menschen}\\
+\begin{itemize}
+\item Landwirtschaft
+\item Bauaktivitäten
+\item Umweltverschmutzung
+\item Vielwirtschaft
+\item Entwässerung von Feuchtgebieten
+\end{itemize}
+\hspace{0.5cm}
+\column{.5\textwidth}
+\raggedleft
+\includegraphics[width=0.9\textwidth]{Figures/loss_ex_3.png}\\
+\centering
+\tiny (Galaz et al. 2018. Nature Eco Evo)
+\end{columns}
+\end{frame}
+
+%-----------------------------------------------
+
+\begin{frame}
+\frametitle{Auswirkungen des Habitatverlusts}
+\includegraphics[width=0.74\textwidth]{Figures/impact_1.png}
+\includegraphics[width=0.24\textwidth]{Figures/impact_2.png}\\
+\hspace{2cm} \tiny (Fahrig, 2003. Ann Rev Eco Evo Sys)\\
+\normalsize
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Auswirkungen des Habitatverlusts}
+\hspace{-0.3cm} Fragmentierung der Landschaft in Europa (EEA-FOEN, 2011)\\[0.3cm]
+\centering
+\includegraphics[width=1.04\textwidth]{Figures/euro_frag.png} 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Auswirkungen des Habitatverlusts}
+\centering
+\includegraphics[width=1.04\textwidth]{Figures/loss_de.png} 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Auswirkungen des Habitatverlusts}
+Auswirkungen der Straßendichte auf die Abundanz des Feldhasen im Canton Aargau, Schweiz (EEA-FOEN, 2011)\\[0.3cm]
+\centering
+\includegraphics[width=0.6\textwidth]{Figures/loss_ex_4.png} 
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Habitatschutz: Europa und Deutschland}
+Gesetzliche Rahmenbedingungen\\
+\centering
+\includegraphics[width=1.04\textwidth]{Figures/schutz.png}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Habitatschutz: Europa und Deutschland}
+Gesellschaftliche Herausforderungen\\
+\centering
+\includegraphics[width=1.04\textwidth]{Figures/schutz_1.jpg}\\
+\tiny (Morrison, 2014)
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{\LARGE\alert{Aufgabe}}
+Bewertet unter Zuhilfenahme der Artikel unterschiedliche Maßnahmen zum Schutz der Habitate in Deutschland.
+
+Die entsprechenden Pdfs zu den Artikeln findet Ihr unter: \alert{https://github.com/AvitBhowmik/testUP})
+
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{}
+\centering
+\LARGE Vielen Dank für Eure Aufmerksamkeit\\
+\normalsize
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\footnotesize
+   Email: \href{mailto:avit.bhowmik@futureearth.org}{\alert{avit.bhowmik@futureearth.org}}\\
+   Website: \href{http://avitbhowmik.ml/}{\alert{http://avitbhowmik.ml/}}\\
+twitter: \href{https://twitter.com/avitbhowmik}{\alert{@avitbhowmik}}\\
+   Google Scholar: \href{https://scholar.google.se/citations?user=laRo5pgAAAAJ&hl=en}{\alert{Dr. Avit K. Bhowmik}}
+\end{column}
+\begin{column}{0.4\textwidth}
+    \begin{center}
+     \includegraphics[width=0.7\textwidth]{Figures/Ques.png}
+     \end{center}
+\end{column}
+\end{columns}
+\end{frame}
+
+%------------------------------------------------
+
+\end{document} 
